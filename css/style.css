@@ -17,6 +17,100 @@ body {
   font-style: normal;
 }
 
+#travels {
+  background: #11132a;
+}
+#travels h1 {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  font-weight: 700;
+  font-size: 36px;
+  color: #FFFFFF;
+  padding-left: 260px;
+}
+#travels .travels {
+  display: flex;
+}
+#travels .travels--block {
+  width: 520px;
+  height: 400px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+}
+#travels .travels--block h1 {
+  padding-top: 50px;
+  padding-left: 60px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+}
+#travels .travels--block p {
+  height: 63px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  padding-left: 40px;
+  padding-bottom: 50px;
+}
+#travels .travels--block__group {
+  display: flex;
+  justify-content: center;
+}
+#travels .travels--block__group--ones {
+  display: flex;
+  justify-content: center;
+}
+#travels .travels--block__group--ones a {
+  font-size: 20px;
+  color: blue;
+}
+#travels .travels--block__group--ones p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+#travels .travels--block__group--two {
+  display: flex;
+  justify-content: center;
+  padding-left: 40px;
+}
+#travels .travels--block__group--two a {
+  font-size: 20px;
+  color: blue;
+}
+#travels .travels--block__group--two p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+#travels .travels--block button {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  text-transform: capitalize;
+  color: #FFFFFF;
+  width: 441px;
+  height: 40px;
+  left: 120px;
+  top: 3022px;
+  background: #1A5CFF;
+  box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+  border: none;
+  margin-left: 50px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+#travels .travels--block button:hover {
+  background: none;
+  color: blue;
+  border: #FFFFFF;
 #header {
   background: #1E2024;
 }
