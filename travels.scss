@@ -1,5 +1,6 @@
 #travels {
   background: #11132a;
+
   h1 {
     padding-top: 100px;
     padding-bottom: 20px;
@@ -8,14 +9,17 @@
     color: #FFFFFF;
     padding-left: 260px;
   }
+
   .travels {
     display: flex;
+
     &--block {
       width: 520px;
       height: 400px;
       background: #FFFFFF;
       display: flex;
       flex-direction: column;
+
       h1 {
         padding-top: 50px;
         padding-left: 60px;
@@ -24,6 +28,7 @@
         font-size: 20px;
         color: #000000;
       }
+
       p {
         //width: 423px;
         height: 63px;
@@ -34,16 +39,20 @@
         padding-left: 40px;
         padding-bottom: 50px;
       }
+
       &__group {
         display: flex;
         justify-content: center;
+
         &--ones {
           display: flex;
           justify-content: center;
+
           a {
             font-size: 20px;
             color: blue;
           }
+
           p {
             font-weight: 400;
             font-size: 14px;
@@ -51,14 +60,17 @@
             color: #000000;
           }
         }
+
         &--two {
           display: flex;
           justify-content: center;
           padding-left: 40px;
+
           a {
             font-size: 20px;
             color: blue;
           }
+
           p {
             font-weight: 400;
             font-size: 14px;
@@ -67,6 +79,7 @@
           }
         }
       }
+
       button {
         font-weight: 900;
         font-size: 18px;
@@ -85,11 +98,136 @@
         margin-left: 50px;
         transition: .4s;
         cursor: pointer;
+
         &:hover {
           background: none;
           color: blue;
           border: #FFFFFF;
         }
+      }
+    }
+  }
+}
+
+#footer {
+  background: #11132a;
+  .footer--block {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    &__jeneral {
+      h1 {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFFFFF;
+        padding-top: 25px;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #9099A3;
+        padding-top: 20px;
+      }
+      button{
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 21px;
+        color: #FFFFFF;
+        width: 100px;
+        height: 40px;
+        background: #1A5CFF;
+        box-shadow: 0 5px 8px rgba(26, 92, 255, 0.2);
+        border-radius: 15px;
+        transition: .4s;
+        cursor: pointer;
+        margin-top: 20px;
+        &:hover{
+          background: none;
+          color: blue;
+          border: #FFFFFF;
+        }
+      }
+
+    }
+    &__title{
+      h1{
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFFFFF;
+        //padding-top: 30px;
+      }
+      p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #9099A3;
+        padding-top: 20px;
+      }
+      &--icons{
+        color: #DADADA;
+        font-size: 20px;
+        padding-top: 30px;
+      }
+    }
+    &__foot{
+      h1 {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 18px;
+        color: #d7d7dd;
+        span {
+          color: #1A5CFF;
+        }
+      }
+      input{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #2C3E50;
+        width: 260px;
+        height: 40px;
+        background: #FFFFFF;
+        box-shadow: 0 5px 8px rgba(0, 0, 0, 0.05);
+        border-radius: 15px;
+        border: none;
+        margin-top: 25px;
+
+      }
+      p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #9099A3;
+        padding-top: 25px;
+      }
+    }
+  }
+  .footer--the{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p{
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 15px;
+      text-decoration-line: underline;
+      color: #9099A3;
+    }
+    &__end{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      p{
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 15px;
+        text-decoration-line: underline;
+        color: #9099A3;
+
       }
     }
   }
