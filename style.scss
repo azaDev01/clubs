@@ -161,7 +161,7 @@
 }
 
 #missions {
-  background: #1E2024;;
+  background: #1E2024;
 
   h1 {
     font-weight: 700;
@@ -260,6 +260,101 @@
             font-size: 14px;
             color: #2C3E50;
           }
+        }
+      }
+    }
+  }
+}
+
+#formats {
+  background: #1E2024;
+
+  h1 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+
+  .formats {
+    display: flex;
+    flex-wrap: wrap;
+
+    &--block {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 500px;
+      height: 300px;
+      background: #FFFFFF;
+      border-radius: 15px;
+      margin-bottom: 60px;
+      margin-right: 40px;
+
+      &__img {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 30px;
+        padding-left: 30px;
+
+        h4 {
+          font-weight: 900;
+          font-size: 24px;
+          color: #9099A3;
+          padding-right: 30px;
+        }
+      }
+
+      h1 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        color: #2C3E50;
+        padding-left: 30px;
+      }
+
+      p {
+        margin-left: 30px;
+        width: 397px;
+        height: 63px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #2C3E50;
+      }
+
+      button {
+        margin-bottom: 20px;
+        margin-top: 15px;
+        margin-left: 300px;
+        width: 180px;
+        height: 40px;
+        background: #1A5CFF;
+        box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+        border-radius: 15px;
+        font-weight: 900;
+        font-size: 18px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        border: none;
+        cursor: pointer;
+        transition: .4s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a {
+          padding-left: 23px;
+          color: #FFFFFF;
+          font-size: 22px;
+        }
+
+        &:hover {
+          transform: scale(1.05);
         }
       }
     }
