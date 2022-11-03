@@ -187,6 +187,10 @@
       padding-top: 40px;
       padding-left: 40px;
 
+      img {
+        width: 80%;
+      }
+
       p {
         width: 510px;
         height: 126px;
@@ -331,6 +335,7 @@
 
       button {
         margin-bottom: 20px;
+        margin-top: 15px;
         margin-left: 300px;
         width: 180px;
         height: 40px;
@@ -364,6 +369,7 @@
 
 #participants {
   background: #1E2024;
+
   h1 {
     font-weight: 900;
     font-size: 36px;
@@ -371,6 +377,82 @@
     padding-top: 88px;
     padding-bottom: 13px;
   }
+
+  .participants {
+    overflow: hidden;
+
+    &--country {
+      display: flex;
+      animation-name: scroll-right;
+      animation-duration: 38s;
+      animation: scroll-left 15s infinite linear;
+      @keyframes scroll-left {
+        0% {
+          transform: translateX(-100%);
+        }
+        100% {
+          transform: translateX(0);
+        }
+      }
+
+      h1 {
+        padding: 10px 40px;
+        font-weight: 900;
+        font-size: 64px;
+        color: #FFFFFF;
+      }
+    }
+
+    &--city {
+      display: flex;
+      animation-name: scroll-right;
+      animation-duration: 38s;
+      animation: scroll-left 17s infinite linear;
+      @keyframes scroll-left {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+
+      h2 {
+        padding: 0 50px;
+        font-weight: 900;
+        font-size: 36px;
+        color: #FFFFFF;
+      }
+    }
+
+    &--borough {
+      display: flex;
+      animation-name: scroll-right;
+      animation-duration: 38s;
+      animation: scroll-left 19s infinite linear;
+      @keyframes scroll-left {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+
+      h3 {
+        padding: 10px 60px;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+
+
+
+
+
   .participants {
 
   }
