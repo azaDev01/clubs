@@ -111,6 +111,317 @@ body {
   background: none;
   color: blue;
   border: #FFFFFF;
+#header {
+  background: #1E2024;
+}
+#header .navbar {
+  padding: 23px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .navbar--nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header .navbar--nav a {
+  padding: 0 15px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #9099A3;
+  transition: 0.4s;
+}
+#header .navbar--nav a:hover {
+  color: #ffffff;
+}
+#header .navbar--logins {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header .navbar--logins select {
+  outline: none;
+  background: transparent;
+  color: #fff;
+  border: none;
+}
+#header .navbar--logins button {
+  margin-left: 40px;
+  width: 100px;
+  height: 40px;
+  box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+  background: #2964f6;
+  font-weight: 900;
+  font-size: 14px;
+  color: #FFFFFF;
+  border: 1px solid #a3b2d0;
+  cursor: pointer;
+  transition: 0.4s;
+}
+#header .navbar--logins button:hover {
+  background: transparent;
+  border: 1px solid #9099A3;
+  color: #9099A3;
+}
+
+#hero {
+  background: url("../img/bg.png") no-repeat center/cover;
+  min-height: 80vh;
+}
+#hero .general {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+#hero .general--block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#hero .general--block h1 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+#hero .general--block h2 {
+  color: #9099A3;
+  padding: 0 5px;
+}
+#hero .general--block a {
+  color: #9099A3;
+  font-size: 25px;
+}
+#hero .hero h1 {
+  font-weight: 700;
+  font-size: 36px;
+  color: #FFFFFF;
+  padding-bottom: 10px;
+}
+#hero .hero p {
+  width: 419px;
+  height: 81px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+  padding-bottom: 26px;
+}
+#hero .hero--buttons__one {
+  width: 178px;
+  height: 40px;
+  background: #1A5CFF;
+  border-radius: 15px;
+  font-weight: 900;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+#hero .hero--buttons__one:hover {
+  color: #9099A3;
+  background: transparent;
+  border: 1px solid #9099A3;
+}
+#hero .hero--buttons__two {
+  width: 100px;
+  height: 40px;
+  border: 1px solid #9099A3;
+  border-radius: 15px;
+  font-weight: 900;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #9099A3;
+  background: transparent;
+  cursor: pointer;
+  margin-left: 20px;
+  transition: 0.4s;
+}
+#hero .hero--buttons__two:hover {
+  border: 1px solid #9099A3;
+  background: #1A5CFF;
+  color: #FFFFFF;
+}
+
+#missions {
+  background: #1E2024;
+}
+#missions h1 {
+  font-weight: 700;
+  font-size: 36px;
+  color: #FFFFFF;
+  padding-bottom: 20px;
+}
+#missions .missions {
+  width: 1040px;
+  height: 600px;
+  background: #FFFFFF;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+#missions .missions--block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+#missions .missions--block p {
+  width: 510px;
+  height: 126px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: #2C3E50;
+  padding-bottom: 23px;
+}
+#missions .missions--group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding-top: 40px;
+}
+#missions .missions--group__paragraph {
+  width: 370px;
+  height: 147px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: #2C3E50;
+}
+#missions .missions--group h1 {
+  font-weight: 700;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 1px;
+  color: #2C3E50;
+}
+#missions .missions--group__one {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+#missions .missions--group__one a {
+  color: #1A5CFF;
+  font-size: 20px;
+  padding-right: 15px;
+}
+#missions .missions--group__one p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #2C3E50;
+}
+#missions .missions--group__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#missions .missions--group__block--two {
+  padding-right: 150px;
+}
+#missions .missions--group__block--two p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #2C3E50;
+}
+#missions .missions--group__block--two h3 {
+  font-weight: 700;
+  font-size: 14px;
+  color: #2C3E50;
+}
+
+#formats {
+  background: #1E2024;
+}
+#formats h1 {
+  font-weight: 700;
+  font-size: 36px;
+  color: #FFFFFF;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+#formats .formats {
+  display: flex;
+  flex-wrap: wrap;
+}
+#formats .formats--block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 500px;
+  height: 300px;
+  background: #FFFFFF;
+  border-radius: 15px;
+  margin-bottom: 60px;
+  margin-right: 40px;
+}
+#formats .formats--block__img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+#formats .formats--block__img h4 {
+  font-weight: 900;
+  font-size: 24px;
+  color: #9099A3;
+  padding-right: 30px;
+}
+#formats .formats--block h1 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2C3E50;
+  padding-left: 30px;
+}
+#formats .formats--block p {
+  margin-left: 30px;
+  width: 397px;
+  height: 63px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #2C3E50;
+}
+#formats .formats--block button {
+  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-left: 300px;
+  width: 180px;
+  height: 40px;
+  background: #1A5CFF;
+  box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+  font-weight: 900;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#formats .formats--block button a {
+  padding-left: 23px;
+  color: #FFFFFF;
+  font-size: 22px;
+}
+#formats .formats--block button:hover {
+  transform: scale(1.05);
 }
 
 /*# sourceMappingURL=style.css.map */
