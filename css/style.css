@@ -303,7 +303,6 @@ body {
 }
 #formats .formats--block button {
   margin-bottom: 20px;
-  margin-top: 15px;
   margin-left: 300px;
   width: 180px;
   height: 40px;
@@ -328,6 +327,17 @@ body {
 }
 #formats .formats--block button:hover {
   transform: scale(1.05);
+}
+
+#participants {
+  background: #1E2024;
+}
+#participants h1 {
+  font-weight: 900;
+  font-size: 36px;
+  color: #FFFFFF;
+  padding-top: 88px;
+  padding-bottom: 13px;
 }
 
 /*# sourceMappingURL=style.css.map */

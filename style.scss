@@ -329,7 +329,6 @@
 
       button {
         margin-bottom: 20px;
-        margin-top: 15px;
         margin-left: 300px;
         width: 180px;
         height: 40px;
@@ -358,5 +357,19 @@
         }
       }
     }
+  }
+}
+
+#participants {
+  background: #1E2024;
+  h1 {
+    font-weight: 900;
+    font-size: 36px;
+    color: #FFFFFF;
+    padding-top: 88px;
+    padding-bottom: 13px;
+  }
+  .participants {
+
   }
 }
