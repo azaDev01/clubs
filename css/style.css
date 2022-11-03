@@ -17,4 +17,59 @@ body {
   font-style: normal;
 }
 
+#header {
+  background: #1E2024;
+}
+#header .navbar {
+  padding: 23px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .navbar--nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header .navbar--nav a {
+  padding: 0 15px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #9099A3;
+  transition: 0.4s;
+}
+#header .navbar--nav a:hover {
+  color: #ffffff;
+}
+#header .navbar--logins {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header .navbar--logins select {
+  outline: none;
+  background: transparent;
+  color: #fff;
+  border: none;
+}
+#header .navbar--logins button {
+  margin-left: 40px;
+  width: 100px;
+  height: 40px;
+  box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+  background: #2964f6;
+  font-weight: 900;
+  font-size: 14px;
+  color: #FFFFFF;
+  border: 1px solid #a3b2d0;
+  cursor: pointer;
+  transition: 0.4s;
+}
+#header .navbar--logins button:hover {
+  background: transparent;
+  border: 1px solid #9099A3;
+  color: #9099A3;
+}
+
 /*# sourceMappingURL=style.css.map */
