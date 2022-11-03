@@ -162,12 +162,14 @@
 
 #missions {
   background: #1E2024;;
+
   h1 {
     font-weight: 700;
     font-size: 36px;
     color: #FFFFFF;
     padding-bottom: 20px;
   }
+
   .missions {
     width: 1040px;
     height: 600px;
@@ -175,12 +177,14 @@
     border-radius: 15px;
     display: flex;
     justify-content: space-around;
+
     &--block {
       display: flex;
       flex-direction: column;
       justify-content: center;
       padding-top: 40px;
       padding-left: 40px;
+
       p {
         width: 510px;
         height: 126px;
@@ -192,12 +196,14 @@
         padding-bottom: 23px;
       }
     }
+
     &--group {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: start;
       padding-top: 40px;
+
       &__paragraph {
         width: 370px;
         height: 147px;
@@ -207,6 +213,7 @@
         text-transform: capitalize;
         color: #2C3E50;
       }
+
       h1 {
         font-weight: 700;
         font-size: 20px;
@@ -214,15 +221,18 @@
         padding-bottom: 1px;
         color: #2C3E50;
       }
+
       &__one {
         display: flex;
         justify-content: center;
         align-items: start;
+
         a {
           color: #1A5CFF;
           font-size: 20px;
           padding-right: 15px;
         }
+
         p {
           font-weight: 400;
           font-size: 14px;
@@ -230,17 +240,21 @@
           color: #2C3E50;
         }
       }
+
       &__block {
         display: flex;
         justify-content: center;
         align-items: center;
+
         &--two {
           padding-right: 150px;
+
           p {
             font-weight: 400;
             font-size: 14px;
             color: #2C3E50;
           }
+
           h3 {
             font-weight: 700;
             font-size: 14px;
