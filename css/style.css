@@ -17,4 +17,140 @@ body {
   font-style: normal;
 }
 
+#header {
+  background: #1E2024;
+}
+#header .navbar {
+  padding: 23px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .navbar--nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header .navbar--nav a {
+  padding: 0 15px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #9099A3;
+  transition: 0.4s;
+}
+#header .navbar--nav a:hover {
+  color: #ffffff;
+}
+#header .navbar--logins {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header .navbar--logins select {
+  outline: none;
+  background: transparent;
+  color: #fff;
+  border: none;
+}
+#header .navbar--logins button {
+  margin-left: 40px;
+  width: 100px;
+  height: 40px;
+  box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+  background: #2964f6;
+  font-weight: 900;
+  font-size: 14px;
+  color: #FFFFFF;
+  border: 1px solid #a3b2d0;
+  cursor: pointer;
+  transition: 0.4s;
+}
+#header .navbar--logins button:hover {
+  background: transparent;
+  border: 1px solid #9099A3;
+  color: #9099A3;
+}
+
+#hero {
+  background: url("../img/bg.png") no-repeat center/cover;
+  min-height: 80vh;
+}
+#hero .general {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+#hero .general--block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#hero .general--block h1 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+#hero .general--block h2 {
+  color: #9099A3;
+  padding: 0 5px;
+}
+#hero .general--block a {
+  color: #9099A3;
+  font-size: 25px;
+}
+#hero .hero h1 {
+  font-weight: 700;
+  font-size: 36px;
+  color: #FFFFFF;
+  padding-bottom: 10px;
+}
+#hero .hero p {
+  width: 419px;
+  height: 81px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+  padding-bottom: 26px;
+}
+#hero .hero--buttons__one {
+  width: 178px;
+  height: 40px;
+  background: #1A5CFF;
+  border-radius: 15px;
+  font-weight: 900;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+#hero .hero--buttons__one:hover {
+  color: #9099A3;
+  background: transparent;
+  border: 1px solid #9099A3;
+}
+#hero .hero--buttons__two {
+  width: 100px;
+  height: 40px;
+  border: 1px solid #9099A3;
+  border-radius: 15px;
+  font-weight: 900;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #9099A3;
+  background: transparent;
+  cursor: pointer;
+  margin-left: 20px;
+  transition: 0.4s;
+}
+#hero .hero--buttons__two:hover {
+  border: 1px solid #9099A3;
+  background: #1A5CFF;
+  color: #FFFFFF;
+}
+
 /*# sourceMappingURL=style.css.map */
