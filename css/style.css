@@ -153,4 +153,96 @@ body {
   color: #FFFFFF;
 }
 
+#missions {
+  background: #1E2024;
+}
+#missions h1 {
+  font-weight: 700;
+  font-size: 36px;
+  color: #FFFFFF;
+  padding-bottom: 20px;
+}
+#missions .missions {
+  width: 1040px;
+  height: 600px;
+  background: #FFFFFF;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+#missions .missions--block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+#missions .missions--block p {
+  width: 510px;
+  height: 126px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: #2C3E50;
+  padding-bottom: 23px;
+}
+#missions .missions--group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding-top: 40px;
+}
+#missions .missions--group__paragraph {
+  width: 370px;
+  height: 147px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: #2C3E50;
+}
+#missions .missions--group h1 {
+  font-weight: 700;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 1px;
+  color: #2C3E50;
+}
+#missions .missions--group__one {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+#missions .missions--group__one a {
+  color: #1A5CFF;
+  font-size: 20px;
+  padding-right: 15px;
+}
+#missions .missions--group__one p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #2C3E50;
+}
+#missions .missions--group__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#missions .missions--group__block--two {
+  padding-right: 150px;
+}
+#missions .missions--group__block--two p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #2C3E50;
+}
+#missions .missions--group__block--two h3 {
+  font-weight: 700;
+  font-size: 14px;
+  color: #2C3E50;
+}
+
 /*# sourceMappingURL=style.css.map */
