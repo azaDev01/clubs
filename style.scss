@@ -722,6 +722,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+
     &--one {
       width: 310px;
       height: 370px;
@@ -744,6 +745,7 @@
         display: flex;
         justify-content: center;
         align-items: end;
+
         &--numbers {
           h1 {
             font-weight: 700;
@@ -795,10 +797,12 @@
           background: #1A5CFF;
         }
       }
+
       &__red {
         display: flex;
         justify-content: center;
         padding-left: 110px;
+
         h2 {
           padding-top: 5px;
           padding-bottom: 21px;
@@ -813,16 +817,19 @@
 
 #details {
   background: #1E2024;
+
   .details {
     display: flex;
     justify-content: space-between;
     align-items: start;
     padding-bottom: 100px;
+
     &--block {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+
       h1 {
         font-weight: 700;
         font-size: 36px;
@@ -830,6 +837,7 @@
         color: #FFFFFF;
       }
     }
+
     &--group {
       summary {
         font-weight: 500;
@@ -838,6 +846,7 @@
         color: #FFFFFF;
         padding: 15px 0;
       }
+
       details {
         font-weight: 400;
         font-size: 16px;
