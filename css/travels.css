@@ -12,6 +12,7 @@
   line-height: 27px;
   color: #FFFFFF;
   padding-top: 25px;
+  cursor: pointer;
 }
 #footer .footer--block__jeneral p {
   font-weight: 400;
@@ -19,6 +20,7 @@
   line-height: 21px;
   color: #9099A3;
   padding-top: 20px;
+  cursor: pointer;
 }
 #footer .footer--block__jeneral button {
   font-weight: 900;
@@ -30,12 +32,13 @@
   background: #1A5CFF;
   box-shadow: 0 5px 8px rgba(26, 92, 255, 0.2);
   border-radius: 15px;
+  border: none;
   transition: 0.4s;
   cursor: pointer;
   margin-top: 20px;
 }
 #footer .footer--block__jeneral button:hover {
-  background: none;
+  background: #0c2c7a;
   color: blue;
   border: #FFFFFF;
 }
@@ -53,9 +56,20 @@
   padding-top: 20px;
 }
 #footer .footer--block__title--icons {
-  color: #DADADA;
-  font-size: 20px;
   padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#footer .footer--block__title--icons a {
+  padding-right: 30px;
+  color: #DADADA;
+  font-size: 25px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+#footer .footer--block__title--icons a:hover {
+  color: #a311dc;
+  transform: scale(1.1);
 }
 #footer .footer--block__foot h1 {
   font-weight: 700;
