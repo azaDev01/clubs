@@ -482,14 +482,17 @@
       width: 340px;
       padding-top: 50px;
       padding-left: 20px;
+
       p {
         width: 340px !important;
         height: 70px !important;
         margin-bottom: 20px;
       }
+
       &--buttons {
         display: flex;
         flex-direction: column !important;
+
         &__one {
           margin-bottom: 20px;
         }
@@ -509,24 +512,29 @@
       height: 1400px !important;
       flex-direction: column;
       margin-left: 65px !important;
+
       &--block {
         p {
           width: 355px !important;
           height: 189px !important;
         }
       }
+
       &--group {
         &__paragraph {
           width: 355px !important;
           height: 189px !important;
           margin-left: 30px;
         }
-        &__one{
+
+        &__one {
           margin-left: 20px;
         }
+
         h2 {
           margin-left: 20px;
         }
+
         &__block {
           padding-left: 20px;
         }
@@ -537,6 +545,7 @@
     h1 {
       font-size: 18px !important;
     }
+
     .formats {
       flex-direction: column;
       padding-left: 1px;
@@ -544,9 +553,11 @@
       &--block {
         width: 350px !important;
         height: 350px !important;
+
         p {
           width: 320px !important;
         }
+
         button {
           margin-top: 10px;
           margin-left: 150px !important;
@@ -643,12 +654,15 @@
 
       &--group {
         zoom: 90%;
+
         input {
           width: 320px !important;
         }
+
         p {
           padding-bottom: 20px;
         }
+
         &__btn {
           flex-direction: column;
           align-items: start !important;
@@ -669,8 +683,10 @@
       &--group {
         padding-top: 30px;
         zoom: 90%;
+
         details {
           width: 320px !important;
+
           summary {
             width: 360px !important;
           }
@@ -699,9 +715,11 @@
 
         &__foot {
           padding: 20px 20px;
+
           &--red {
             display: flex;
             flex-direction: column;
+
             button {
               margin-top: 20px;
             }
@@ -745,14 +763,17 @@
       width: 340px;
       padding-top: 50px;
       padding-left: 20px;
+
       p {
         width: 340px !important;
         height: 70px !important;
         margin-bottom: 20px;
       }
+
       &--buttons {
         display: flex;
         flex-direction: column !important;
+
         &__one {
           margin-bottom: 20px;
         }
@@ -772,24 +793,29 @@
       height: 1400px !important;
       flex-direction: column;
       margin-left: 65px !important;
+
       &--block {
         p {
           width: 355px !important;
           height: 189px !important;
         }
       }
+
       &--group {
         &__paragraph {
           width: 355px !important;
           height: 189px !important;
           margin-left: 30px;
         }
-        &__one{
+
+        &__one {
           margin-left: 20px;
         }
+
         h2 {
           margin-left: 20px;
         }
+
         &__block {
           padding-left: 20px;
         }
@@ -800,6 +826,7 @@
     h1 {
       font-size: 18px !important;
     }
+
     .formats {
       flex-direction: column;
       padding-left: 1px;
@@ -807,9 +834,11 @@
       &--block {
         width: 350px !important;
         height: 350px !important;
+
         p {
           width: 320px !important;
         }
+
         button {
           margin-top: 10px;
           margin-left: 150px !important;
@@ -906,12 +935,15 @@
 
       &--group {
         zoom: 90%;
+
         input {
           width: 320px !important;
         }
+
         p {
           padding-bottom: 20px;
         }
+
         &__btn {
           flex-direction: column;
           align-items: start !important;
@@ -932,8 +964,10 @@
       &--group {
         padding-top: 30px;
         zoom: 90%;
+
         details {
           width: 320px !important;
+
           summary {
             width: 360px !important;
           }
@@ -962,9 +996,11 @@
 
         &__foot {
           padding: 20px 20px;
+
           &--red {
             display: flex;
             flex-direction: column;
+
             button {
               margin-top: 20px;
             }
