@@ -1,10 +1,12 @@
 
 #footer {
   background: #11132a;
+
   .footer--block {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
+
     &__jeneral {
       h1 {
         font-weight: 700;
@@ -12,6 +14,7 @@
         line-height: 27px;
         color: #FFFFFF;
         padding-top: 25px;
+        cursor: pointer;
       }
 
       p {
@@ -20,8 +23,10 @@
         line-height: 21px;
         color: #9099A3;
         padding-top: 20px;
+        cursor: pointer;
       }
-      button{
+
+      button {
         font-weight: 900;
         font-size: 14px;
         line-height: 21px;
@@ -31,51 +36,72 @@
         background: #1A5CFF;
         box-shadow: 0 5px 8px rgba(26, 92, 255, 0.2);
         border-radius: 15px;
+        border: none;
         transition: .4s;
         cursor: pointer;
         margin-top: 20px;
-        &:hover{
-          background: none;
+
+        &:hover {
+          background: #0c2c7a;
           color: blue;
           border: #FFFFFF;
         }
       }
 
     }
-    &__title{
-      h1{
+
+    &__title {
+      h1 {
         font-weight: 900;
         font-size: 18px;
         line-height: 27px;
         color: #FFFFFF;
         //padding-top: 30px;
       }
-      p{
+
+      p {
         font-weight: 400;
         font-size: 14px;
         line-height: 21px;
         color: #9099A3;
         padding-top: 20px;
       }
-      &--icons{
-        color: #DADADA;
-        font-size: 20px;
+
+      &--icons {
         padding-top: 30px;
-        transition:.4s;
-        
+        display: flex;
+        flex-wrap: wrap;
+
+        a {
+          padding-right: 30px;
+          color: #DADADA;
+          font-size: 25px;
+          transition: .4s;
+          cursor: pointer;
+
+          &:hover {
+            color: #a311dc;
+            transform: scale(1.1);
+
+          }
+        }
+
       }
     }
-    &__foot{
+
+    &__foot {
       h1 {
         font-weight: 700;
         font-size: 20px;
         line-height: 18px;
         color: #d7d7dd;
+
         span {
           color: #1A5CFF;
         }
       }
-      input{
+
+      input {
         font-weight: 400;
         font-size: 12px;
         line-height: 18px;
@@ -89,7 +115,8 @@
         margin-top: 25px;
 
       }
-      p{
+
+      p {
         font-weight: 400;
         font-size: 14px;
         line-height: 21px;
@@ -98,28 +125,31 @@
       }
     }
   }
-  .footer--the{
+
+  .footer--the {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    p{
+
+    p {
       font-weight: 400;
       font-size: 10px;
       line-height: 15px;
       text-decoration-line: underline;
       color: #9099A3;
     }
-    &__end{
+
+    &__end {
       display: flex;
       justify-content: center;
       align-items: center;
-      p{
+
+      p {
         font-weight: 400;
         font-size: 10px;
         line-height: 15px;
         text-decoration-line: underline;
         color: #9099A3;
-
       }
     }
   }
