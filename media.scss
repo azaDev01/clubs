@@ -9,23 +9,440 @@
 @media (max-width: 1024px) {
   #header {
     .navbar {
-      width: 1000px;
+      width: 980px;
+      padding-left: 20px !important;
     }
   }
   #hero {
     .general {
-      justify-content: center;
-      padding-left: 500px;
+      justify-content: center !important;
+      padding-left: 500px !important;
+    }
+
+    .hero {
+      padding-left: 40px;
+    }
+  }
+  #missions {
+    h1 {
+      padding-left: 40px;
+    }
+
+    .missions {
+      zoom: 97%;
+      margin-left: 8px !important;
+    }
+  }
+  #formats {
+    h1 {
+      padding-left: 40px;
+    }
+
+    .formats {
+      &--block {
+        zoom: 90%;
+        margin-right: 20px !important;
+        margin-left: 36px !important;
+      }
+    }
+  }
+  #travels {
+    h1 {
+      padding-left: 40px;
+    }
+
+    .travels {
+      zoom: 95%;
+      margin-left: 18px !important;
+    }
+  }
+  #participants {
+    h1 {
+      padding-left: 40px;
+    }
+  }
+  #process {
+    .process {
+      padding-right: 120px;
+    }
+  }
+  #participation {
+    .participation {
+      h1 {
+        margin-right: 100px;
+      }
+
+      p {
+        margin-right: 100px;
+      }
+    }
+
+    .block {
+      justify-content: normal !important;
+      padding-left: 25px;
+
+      &--one {
+        margin: 0 10px;
+        width: 290px !important;
+      }
+    }
+  }
+  #choices {
+    .choices {
+      justify-content: normal !important;
+      padding-left: 60px;
+
+      &--block {
+        h1 {
+          width: 200px !important;
+        }
+      }
+    }
+  }
+  #details {
+    .details {
+      justify-content: normal !important;
+
+      &--block {
+        padding-right: 70px;
+        padding-left: 20px;
+      }
+    }
+  }
+  #footer {
+    .footer {
+      &--block {
+        justify-content: normal !important;
+
+        img {
+          padding: 0 20px;
+        }
+
+        &__jeneral {
+          padding: 0 20px;
+        }
+
+        &__title {
+          padding: 0 20px;
+        }
+
+        &__foot {
+          padding: 0 20px;
+        }
+      }
+
+      &--the {
+        justify-content: space-around !important;
+      }
     }
   }
 }
 
 @media (max-width: 992px) {
+  #header {
+    .navbar {
+      width: 880px;
+      padding-left: 60px !important;
+    }
+  }
+  #hero {
+    .general {
+      justify-content: center !important;
+      padding-left: 500px !important;
+    }
 
+    .hero {
+      padding-left: 60px;
+    }
+  }
+  #missions {
+    h1 {
+      padding-left: 60px;
+    }
+
+    .missions {
+      zoom: 90%;
+      margin-left: 30px !important;
+    }
+  }
+  #formats {
+    h1 {
+      padding-left: 60px;
+    }
+
+    .formats {
+      &--block {
+        zoom: 90%;
+        margin-right: 20px !important;
+        margin-left: 30px !important;
+      }
+    }
+  }
+  #travels {
+    h1 {
+      padding-left: 60px;
+    }
+
+    .travels {
+      zoom: 92%;
+      margin-left: 18px !important;
+    }
+  }
+  #participants {
+    h1 {
+      padding-left: 60px;
+    }
+  }
+  #process {
+    h1 {
+      padding-right: 120px;
+    }
+
+    .process {
+      padding-right: 120px;
+    }
+  }
+  #participation {
+    .participation {
+      h1 {
+        margin-right: 100px;
+      }
+
+      p {
+        margin-right: 100px;
+      }
+    }
+
+    .block {
+      justify-content: normal !important;
+      padding-left: 10px;
+
+      &--one {
+        margin: 0 10px;
+        width: 290px !important;
+      }
+    }
+  }
+  #choices {
+    .choices {
+      justify-content: normal !important;
+      padding-left: 60px;
+
+      &--block {
+        h1 {
+          width: 200px !important;
+        }
+      }
+    }
+  }
+  #details {
+    .details {
+      justify-content: normal !important;
+
+      &--block {
+        padding-right: 70px;
+        padding-left: 20px;
+      }
+    }
+  }
+  #footer {
+    .footer {
+      &--block {
+        justify-content: normal !important;
+
+        img {
+          padding: 0 20px;
+        }
+
+        &__jeneral {
+          padding: 0 20px;
+        }
+
+        &__title {
+          padding: 0 20px;
+        }
+
+        &__foot {
+          padding: 0 20px;
+        }
+      }
+
+      &--the {
+        justify-content: space-around !important;
+      }
+    }
+  }
 }
 
 @media (max-width: 768px) {
+  #header {
+    .navbar {
+      width: 700px;
+    }
+  }
+  #hero {
+    .general {
+      padding-left: 200px !important;
+    }
 
+    .hero {
+      padding-left: 60px;
+    }
+  }
+  #missions {
+    h1 {
+      padding-left: 60px;
+      font-size: 28px !important;
+    }
+
+    .missions {
+      zoom: 70%;
+      margin-left: 30px !important;
+    }
+  }
+  #formats {
+
+    .formats {
+      flex-direction: column;
+      padding-left: 140px;
+
+      &--block {
+        zoom: 90%;
+      }
+    }
+  }
+  #travels {
+    h1 {
+      padding-left: 60px;
+      font-size: 28px !important;
+    }
+
+    .travels {
+      flex-direction: column;
+      flex-direction: column-reverse;
+      width: 500px !important;
+      height: 800px !important;
+      margin-left: 180px !important;
+
+      zoom: 92%;
+
+      &--block {
+        padding-right: 30px;
+      }
+    }
+  }
+  #participants {
+    h1 {
+      padding-left: 60px;
+      font-size: 28px !important;
+    }
+  }
+  #process {
+    h1 {
+      padding-right: 350px;
+      font-size: 28px !important;
+    }
+
+    .process {
+      align-items: start;
+      justify-content: flex-start !important;
+
+      &--block {
+        padding: 20px 25px !important;
+      }
+    }
+  }
+  #participation {
+    .participation {
+      align-items: start !important;
+      padding-left: 30px;
+
+      h1 {
+        text-align: start !important;
+        font-size: 25px !important;
+      }
+
+      p {
+        width: 700px !important;
+      }
+    }
+
+    .block {
+      flex-direction: column;
+      align-items: start !important;
+      padding-left: 230px;
+
+      &--one {
+        margin: 25px 10px;
+        width: 290px !important;
+      }
+    }
+  }
+  #choices {
+    .choices {
+      flex-direction: column;
+      justify-content: normal !important;
+      padding-left: 60px;
+
+      &--block {
+        padding-bottom: 30px;
+
+        h1 {
+          width: 200px !important;
+        }
+      }
+
+      &--group {
+        zoom: 90%;
+      }
+    }
+  }
+  #details {
+    .details {
+      flex-direction: column;
+      padding-left: 50px;
+
+      &--block {
+        padding-right: 70px;
+        padding-left: 20px;
+      }
+
+      &--group {
+        padding-top: 30px;
+        zoom: 80%;
+      }
+    }
+  }
+  #footer {
+    .footer {
+      &--block {
+        flex-direction: column;
+        align-items: start !important;
+        padding-left: 30px;
+
+        img {
+          padding: 5px 20px;
+        }
+
+        &__jeneral {
+          padding: 15px 20px;
+        }
+
+        &__title {
+          padding: 30px 20px;
+        }
+
+        &__foot {
+          padding: 20px 20px;
+        }
+      }
+
+      &--the {
+        flex-direction: column;
+        align-items: start;
+      }
+    }
+  }
 }
 
 @media (max-width: 576px) {
@@ -36,12 +453,530 @@
 
 }
 
-@media (max-width: 425px) {
+@media (max-width: 414px) {
+  #header {
+    .navbar {
+      &--nav {
+        display: none !important;
+      }
 
+      &--logins {
+        display: none !important;
+      }
+    }
+
+    .hamburger-menu {
+      display: block;
+    }
+  }
+  #hero {
+    .general {
+      justify-content: start !important;
+      padding-left: 220px !important;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      width: 340px;
+      padding-top: 50px;
+      padding-left: 20px;
+      p {
+        width: 340px !important;
+        height: 70px !important;
+        margin-bottom: 20px;
+      }
+      &--buttons {
+        display: flex;
+        flex-direction: column !important;
+        &__one {
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+  }
+  #missions {
+    h1 {
+      padding-top: 10px;
+      padding-left: 60px;
+      font-size: 25px !important;
+    }
+
+    .missions {
+      width: 430px !important;
+      height: 1400px !important;
+      flex-direction: column;
+      margin-left: 65px !important;
+      &--block {
+        p {
+          width: 355px !important;
+          height: 189px !important;
+        }
+      }
+      &--group {
+        &__paragraph {
+          width: 355px !important;
+          height: 189px !important;
+          margin-left: 30px;
+        }
+        &__one{
+          margin-left: 20px;
+        }
+        h2 {
+          margin-left: 20px;
+        }
+        &__block {
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+  #formats {
+    h1 {
+      font-size: 18px !important;
+    }
+    .formats {
+      flex-direction: column;
+      padding-left: 1px;
+
+      &--block {
+        width: 350px !important;
+        height: 350px !important;
+        p {
+          width: 320px !important;
+        }
+        button {
+          margin-top: 10px;
+          margin-left: 150px !important;
+        }
+      }
+    }
+  }
+  #travels {
+    h1 {
+      padding-left: 30px;
+      font-size: 20px !important;
+    }
+
+    .travels {
+      flex-direction: column;
+      flex-direction: column-reverse;
+      width: 498px !important;
+      height: 790px !important;
+      margin-left: 20px !important;
+
+      zoom: 70%;
+
+      &--block {
+        padding-right: 30px;
+      }
+    }
+  }
+  #participants {
+    h1 {
+      padding-left: 40px;
+      font-size: 20px !important;
+    }
+  }
+  #process {
+    h1 {
+      padding-left: 30px !important;
+      text-align: start !important;
+      font-size: 20px !important;
+    }
+
+    .process {
+      flex-direction: column;
+      align-items: start;
+      padding-left: 70px;
+      justify-content: flex-start !important;
+
+      &--block {
+        padding: 20px 25px !important;
+      }
+    }
+  }
+  #participation {
+    .participation {
+      align-items: start !important;
+      padding-left: 30px;
+
+      h1 {
+        text-align: start !important;
+        padding-left: 10px;
+        font-size: 17px !important;
+      }
+
+      p {
+        width: 320px !important;
+        height: 300px !important;
+      }
+    }
+
+    .block {
+      flex-direction: column;
+      align-items: start !important;
+      padding-left: 35px;
+
+      &--one {
+        margin: 25px 10px;
+        width: 290px !important;
+        zoom: 100%;
+      }
+    }
+  }
+  #choices {
+    .choices {
+      flex-direction: column;
+      justify-content: normal !important;
+      padding-left: 20px;
+
+      &--block {
+        padding-bottom: 30px;
+
+        h1 {
+          width: 200px !important;
+        }
+      }
+
+      &--group {
+        zoom: 90%;
+        input {
+          width: 320px !important;
+        }
+        p {
+          padding-bottom: 20px;
+        }
+        &__btn {
+          flex-direction: column;
+          align-items: start !important;
+        }
+      }
+    }
+  }
+  #details {
+    .details {
+      flex-direction: column;
+      padding-left: 30px;
+
+      &--block {
+        padding-right: 70px;
+        padding-left: 20px;
+      }
+
+      &--group {
+        padding-top: 30px;
+        zoom: 90%;
+        details {
+          width: 320px !important;
+          summary {
+            width: 360px !important;
+          }
+        }
+      }
+    }
+  }
+  #footer {
+    .footer {
+      &--block {
+        flex-direction: column;
+        align-items: start !important;
+        padding-left: 30px;
+
+        img {
+          padding: 5px 20px;
+        }
+
+        &__jeneral {
+          padding: 15px 20px;
+        }
+
+        &__title {
+          padding: 30px 20px;
+        }
+
+        &__foot {
+          padding: 20px 20px;
+          &--red {
+            display: flex;
+            flex-direction: column;
+            button {
+              margin-top: 20px;
+            }
+          }
+        }
+      }
+
+      &--the {
+        display: none !important;
+      }
+    }
+  }
 }
 
 @media (max-width: 375px) {
+  #header {
+    .navbar {
+      &--nav {
+        display: none !important;
+      }
 
+      &--logins {
+        display: none !important;
+      }
+    }
+
+    .hamburger-menu {
+      display: block;
+    }
+  }
+  #hero {
+    .general {
+      justify-content: start !important;
+      padding-left: 220px !important;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      width: 340px;
+      padding-top: 50px;
+      padding-left: 20px;
+      p {
+        width: 340px !important;
+        height: 70px !important;
+        margin-bottom: 20px;
+      }
+      &--buttons {
+        display: flex;
+        flex-direction: column !important;
+        &__one {
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+  }
+  #missions {
+    h1 {
+      padding-top: 10px;
+      padding-left: 60px;
+      font-size: 25px !important;
+    }
+
+    .missions {
+      width: 430px !important;
+      height: 1400px !important;
+      flex-direction: column;
+      margin-left: 65px !important;
+      &--block {
+        p {
+          width: 355px !important;
+          height: 189px !important;
+        }
+      }
+      &--group {
+        &__paragraph {
+          width: 355px !important;
+          height: 189px !important;
+          margin-left: 30px;
+        }
+        &__one{
+          margin-left: 20px;
+        }
+        h2 {
+          margin-left: 20px;
+        }
+        &__block {
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+  #formats {
+    h1 {
+      font-size: 18px !important;
+    }
+    .formats {
+      flex-direction: column;
+      padding-left: 1px;
+
+      &--block {
+        width: 350px !important;
+        height: 350px !important;
+        p {
+          width: 320px !important;
+        }
+        button {
+          margin-top: 10px;
+          margin-left: 150px !important;
+        }
+      }
+    }
+  }
+  #travels {
+    h1 {
+      padding-left: 30px;
+      font-size: 20px !important;
+    }
+
+    .travels {
+      flex-direction: column;
+      flex-direction: column-reverse;
+      width: 498px !important;
+      height: 790px !important;
+      margin-left: 20px !important;
+
+      zoom: 70%;
+
+      &--block {
+        padding-right: 30px;
+      }
+    }
+  }
+  #participants {
+    h1 {
+      padding-left: 40px;
+      font-size: 20px !important;
+    }
+  }
+  #process {
+    h1 {
+      padding-left: 30px !important;
+      text-align: start !important;
+      font-size: 20px !important;
+    }
+
+    .process {
+      flex-direction: column;
+      align-items: start;
+      padding-left: 70px;
+      justify-content: flex-start !important;
+
+      &--block {
+        padding: 20px 25px !important;
+      }
+    }
+  }
+  #participation {
+    .participation {
+      align-items: start !important;
+      padding-left: 30px;
+
+      h1 {
+        text-align: start !important;
+        padding-left: 10px;
+        font-size: 17px !important;
+      }
+
+      p {
+        width: 320px !important;
+        height: 300px !important;
+      }
+    }
+
+    .block {
+      flex-direction: column;
+      align-items: start !important;
+      padding-left: 35px;
+
+      &--one {
+        margin: 25px 10px;
+        width: 290px !important;
+        zoom: 100%;
+      }
+    }
+  }
+  #choices {
+    .choices {
+      flex-direction: column;
+      justify-content: normal !important;
+      padding-left: 20px;
+
+      &--block {
+        padding-bottom: 30px;
+
+        h1 {
+          width: 200px !important;
+        }
+      }
+
+      &--group {
+        zoom: 90%;
+        input {
+          width: 320px !important;
+        }
+        p {
+          padding-bottom: 20px;
+        }
+        &__btn {
+          flex-direction: column;
+          align-items: start !important;
+        }
+      }
+    }
+  }
+  #details {
+    .details {
+      flex-direction: column;
+      padding-left: 30px;
+
+      &--block {
+        padding-right: 70px;
+        padding-left: 20px;
+      }
+
+      &--group {
+        padding-top: 30px;
+        zoom: 90%;
+        details {
+          width: 320px !important;
+          summary {
+            width: 360px !important;
+          }
+        }
+      }
+    }
+  }
+  #footer {
+    .footer {
+      &--block {
+        flex-direction: column;
+        align-items: start !important;
+        padding-left: 30px;
+
+        img {
+          padding: 5px 20px;
+        }
+
+        &__jeneral {
+          padding: 15px 20px;
+        }
+
+        &__title {
+          padding: 30px 20px;
+        }
+
+        &__foot {
+          padding: 20px 20px;
+          &--red {
+            display: flex;
+            flex-direction: column;
+            button {
+              margin-top: 20px;
+            }
+          }
+        }
+      }
+
+      &--the {
+        display: none !important;
+      }
+    }
+  }
 }
 
 @media (max-width: 320px) {
